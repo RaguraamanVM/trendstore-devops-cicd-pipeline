@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: trendstore-service
+
+spec:
+  selector:
+    app: trendstore
+
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+
+  type: LoadBalancer
