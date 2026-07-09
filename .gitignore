@@ -1,0 +1,16 @@
+# Node.js
+app/node_modules/
+app/dist/
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/tfplan
+
+# Environment
+.env
+
+# Logs
+*.log
+
