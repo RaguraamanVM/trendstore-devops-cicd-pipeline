@@ -1,6 +1,6 @@
 # Node.js
 app/node_modules/
-app/dist/
+
 
 # Terraform
 terraform/.terraform/
