@@ -20,7 +20,7 @@ pipeline {
             steps {
 
                 git branch: 'main',
-                credentialsId: 'github-pat',
+                credentialsId: 'github-creds',
                 url: 'https://github.com/RaguraamanVM/trendstore-devops-cicd-pipeline.git'
 
             }
