@@ -133,7 +133,7 @@ pipeline {
 
                 sh '''
 
-                kubectl rollout status deployment/trendstore-deployment
+                kubectl rollout status deployment/trendstore
 
                 kubectl get pods
 
