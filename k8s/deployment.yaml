@@ -18,7 +18,6 @@ spec:
     spec:
       containers:
       - name: trendstore
-        image: raguraaman/trendstore:v1
-
+        image: IMAGE_NAME
         ports:
         - containerPort: 80
