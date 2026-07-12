@@ -1,4 +1,4 @@
-# Trendify App – Application Deployment on AWS EKS with Jenkins CI/CD
+# Trendstore App – Application Deployment on AWS EKS with Jenkins CI/CD
 
 ## Overview
 
